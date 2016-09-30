@@ -1,0 +1,16 @@
+packages: [
+  "atom-alignment"
+  "atom-runner"
+  "atom-typescript"
+  "Bart"
+  "emmet"
+  "file-icons"
+  "git-time-machine"
+  "language-demandware"
+  "linter"
+  "linter-stylelint"
+  "linter-tslint"
+  "minimap"
+  "mocha"
+  "package-sync"
+]

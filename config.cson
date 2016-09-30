@@ -1,0 +1,37 @@
+"*":
+  "atom-alignment": {}
+  core:
+    disabledPackages: [
+      "metrics"
+    ]
+    themes: [
+      "atom-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    invisibles: {}
+  "exception-reporting":
+    userId: "c792dd38-b45c-6930-23a5-61dbd6a31fc1"
+  linter: {}
+  "linter-stylelint":
+    enableHtmlLinting: true
+    useStandard: true
+  metrics:
+    userId: "95daaf47480ce38a4449fc948bb044689563e634"
+  minimap: {}
+  mocha:
+    specDirectory: "./test/"
+  "one-dark-ui": {}
+  "release-notes":
+    viewedVersion: "0.72.0"
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  welcome:
+    showOnStartup: false
+".source.ts":
+  editor:
+    showIndentGuide: true
