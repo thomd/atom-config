@@ -4,12 +4,14 @@
     disabledPackages: [
       "metrics"
     ]
+    telemetryConsent: "limited"
     themes: [
       "atom-dark-ui"
       "base16-tomorrow-dark-theme"
     ]
   editor:
     invisibles: {}
+    showIndentGuide: true
   "exception-reporting":
     userId: "c792dd38-b45c-6930-23a5-61dbd6a31fc1"
   linter: {}
@@ -22,6 +24,9 @@
   mocha:
     specDirectory: "./test/"
   "one-dark-ui": {}
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
   "release-notes":
     viewedVersion: "0.72.0"
   "split-diff":
@@ -30,6 +35,10 @@
     leftEditorColor: "red"
     rightEditorColor: "green"
     syncHorizontalScroll: true
+  "terminal-plus":
+    core: {}
+    toggles:
+      autoClose: true
   welcome:
     showOnStartup: false
 ".source.ts":

@@ -5,6 +5,9 @@ My [Atom](https://atom.io/) configuration.
 
 ## Install
 
-`$ git clone https://github.com/thomd/atom-config.git ~/.atom`
+    git clone https://github.com/thomd/atom-config.git ~/.atom
 
-Use **package-sync** from the command palette to install the remaining packages.
+Install [Package Sync for Atom](https://atom.io/packages/package-sync) and install packages listed in the
+configuration file `~/.atom/packages.cson` using the command
+
+    package-sync:sync
