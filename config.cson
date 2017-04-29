@@ -11,7 +11,6 @@
     ]
   editor:
     invisibles: {}
-    showIndentGuide: true
   "exception-reporting":
     userId: "c792dd38-b45c-6930-23a5-61dbd6a31fc1"
   linter: {}
